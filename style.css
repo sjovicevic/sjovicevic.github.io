@@ -3,14 +3,29 @@
     color: #fff;
 }
 
+.heading {
+    font-family: 'Roboto',sans-serif;
+}
+
+
 .btn:focus, .btn:active {
     outline: none !important;
     box-shadow: none !important;
   }
 
+  
 .h2 {
     color: #fff !important; 
 }
 .linkovi{
     color: #fff;
+}
+
+.linkovi:hover {
+    color: #f8cf43;
+}
+
+
+.bio {
+    font-family: 'Roboto',sans-serif;
 }
