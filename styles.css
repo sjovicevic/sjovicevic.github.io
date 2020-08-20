@@ -1,4 +1,55 @@
 body {
     background-color: #000;
     color: #fff;
+    font-family: sans-serif;
+}
+/* Header */
+.wrap {
+    margin: 5%;
+    background-color: #013311;
+}
+
+.header {
+    background-color: #333;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+/* Contact */
+
+.contact {
+    background-color: #666;
+}
+
+.contact ul{
+    list-style-type: none;
+    background-color: #AAA;
+    margin: auto;
+    width: 90%;
+}
+
+.contact ul li {
+    padding-right: 2%;
+    float: left;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Content */
+
+.content {
+    margin: 5% 20% 5% 20%;
+    background-color: #444;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
 }
