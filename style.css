@@ -14,18 +14,31 @@
   }
 
   
-.h2 {
+.h3 {
     color: #fff !important; 
+    font-family: sans-serif;
 }
 .linkovi{
     color: #fff;
 }
 
+
 .linkovi:hover {
-    color: #f8cf43;
+    color: #666;
+    transition: 0.5s;
+}
+
+.linkovi:click {
+    color: #666;
 }
 
 
-.bio {
-    font-family: 'Roboto',sans-serif;
+.bio h5 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.6em;
+}
+
+.quote {
+    font-family: 'Playfair Display';
+    font-size: 1.0em;
 }
