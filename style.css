@@ -42,3 +42,24 @@
     font-family: 'Playfair Display';
     font-size: 1.0em;
 }
+
+.p-6 {
+    padding-top: 7rem;
+}
+
+.hobby h5{
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin: 2%;
+    opacity: 0.6;
+}
+
+img:hover{
+    transform:scale(1.02);
+    transition: 0.2s;
+    opacity: 1;
+}
