@@ -1,0 +1,16 @@
+#main {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.h2 {
+    color: #fff !important; 
+}
+.linkovi{
+    color: #fff;
+}
