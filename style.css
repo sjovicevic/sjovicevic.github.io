@@ -40,7 +40,7 @@
 
 .quote {
     font-family: 'Playfair Display';
-    font-size: 1.0em;
+    font-size: 1.8em;
 }
 
 .p-6 {
@@ -53,7 +53,6 @@
 }
 
 img {
-    max-width: 100%;
     margin: 2%;
     opacity: 0.6;
 }
@@ -62,4 +61,18 @@ img:hover{
     transform:scale(1.02);
     transition: 0.2s;
     opacity: 1;
+}
+
+#surname {
+    color: #777;
+}
+
+.header-image{
+    filter: grayscale(100%); 
+}
+
+.my-icon:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
 }
