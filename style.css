@@ -76,3 +76,7 @@ img:hover{
     transition: 0.2s;
     cursor: pointer;
 }
+
+#header-img {
+    max-height: auto;
+}
