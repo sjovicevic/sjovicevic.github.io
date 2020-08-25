@@ -3,6 +3,16 @@
     color: #fff;
 }
 
+.slika {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.slike img {
+    height: auto;
+}
+
 .heading {
     font-family: 'Poppins',sans-serif;
 }
@@ -80,3 +90,4 @@ img:hover{
 #header-img {
     max-height: auto;
 }
+
