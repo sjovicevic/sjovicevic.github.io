@@ -1,165 +1,147 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <!-- Links and references -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
 
-    <title>sjovicevic</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.scss">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- Meta tags and description-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stefan Jovićević </title> 
+        
     </head>
 
-<body id="main">
-    <div class="container user-select-none " id="container-id">
-        <div class="row justify-content-center p-5">
-            <div class="col-xs-12 col-md-12 col-lg-12">
-                <h1 class="display-4 text-center heading"> stefan  <span id="surname">jovicevic</span></h1>
-            </div>
-        </div>
-
-        
-
-        <div class="row justify-content-center">
-            <blockquote class="blockquote p-5">
-                <p class="text-center quote">"Simplicity, carried to an extreme, becomes elegance."</p>
-                <div class=" d-flex justify-content-center ">
-                <cite class="" title="John Franklin">John Franklin</cite>
+    <body>
+        <header id="header-top">
+            <div class="progress fixed-top" style="height: 4px;">
+                <div class="progress-bar" id="myBar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+        </header>
+        <div class="">
+        <div class="container-fluid">
+            <div class="text-center p-5">
+                <div>
+                    <p class="display-1 p-2"> Stefan <span class="text-muted">Jovićević </span></p> 
                 </div>
-              </blockquote>
-        </div>
 
-        <div class="row p-4 justify-content-center">
-            <svg onClick="document.getElementById('header-img').scrollIntoView({behavior: 'smooth'});" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle  my-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
-                <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-        </div>
+                <div>
+                <div class="p-5">
+                    <blockquote class="blockquote">
+                        <p class="display-4 p-4">
+                            "Simplicity, carried to an an extreme, becomes elegance." 
+                        </p>
+                    </blockquote>
 
-        <div class="row image justify-content-center p-6 slika">
-            <img src="images/image1.jpg" id="header-img" class="img-fluid w-75 header-image" alt="Responsive image" onClick="document.getElementById('my-content').scrollIntoView({block: 'center', behavior: 'smooth'});">
-        </div>
-        
-
-        <div class="row justify-content-center" id="my-content">
-            <div class="p-6 m-4 bio text-center">
-                <h5> 
-                    Love Python and web development.
-                </h5>
-                <h5>
-                </br>
-                    Familiar with the concepts of algorithms, data structures and OOP.
-                </h5>
-                <h5>
-                </br>
-                    I enjoy coffee, but Java is not my cup of tea.
-                </h5>
-
-                <h5>
-                </br>
-            </h5>
-            </div>
-        </div>
-
-        <div class="row p-4 justify-content-center">
-            <svg onClick="document.getElementById('wander').scrollIntoView({behavior: 'smooth'});" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle  my-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
-                <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
-              </svg>
-        </div>
-
-        <div class="row justify-content-center p-6">
-            <div class="col-xs-12 text-center hobby p-4" id="wander">
-                <h5> 
-                    I sometimes wander around the city, take photos and then edit them. Take a look!
-                </h5>
-            </div>
-        </div>
-
-        <div class="row justify-content-center p-3">
-
-             <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-                    <img class="img-responsive img-fluid" src="images/photo2.jpg" alt="">
-            </div>
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-                    <img class="img-responsive img-fluid" src="images/photo1.jpg" alt="">
-            </div>
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-                    <img class="img-responsive img-fluid" src="images/photo3.jpg" alt="">
-            </div>
-
-        <div class="row justify-content-center pt-4 m-4">
-            <div class="col-xs-8">
-                <div class="collapse navbar" id="navbarToggleExternalContent">
-                    <div class="">
-                    <ul class="navbar-nav justify-content-center">
-                        <li class="nav-item">
-                        <a class="nav-link linkovi h4" href="https://github.com/sjovicevic" target="_blank"> github </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link linkovi h4" href="https://twitter.com/amplifiedroid" target="_blank"> twitter </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link linkovi h4" href="https://www.linkedin.com/in/stefan-j-3b30241b4/" target="_blank"> linkedin </a>
-                        </li>
-                    </ul>
-                    </div>
+                    <figcaption class="blockquote-footer">
+                        <p class="display-6">John Franklin</p>
+                    </figcaption>
                 </div>
-                <nav class="navbar" id="dugme">
-                    <button class="navbar-toggler btn btn-block" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span id="contact" class="h3"> contact me </span>
-                    </button>
-                </nav>
             </div>
-            <div class="col-xs-4 pt-3 m-0">
-                <svg onClick="document.getElementById('main').scrollIntoView({behavior: 'smooth'});" width="2em" height="2em" viewBox="0 0 16 16" class="my-icon bi bi-arrow-up-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                    <path fill-rule="evenodd" d="M4.646 8.354a.5.5 0 0 0 .708 0L8 5.707l2.646 2.647a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708z"/>
-                    <path fill-rule="evenodd" d="M8 11.5a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5z"/>
-                </svg>
+        </div>  
+
+        <div class="text-center p-5">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel dui neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tincidunt leo massa, vel ornare velit tristique vel. Curabitur eget mauris augue. Duis varius nunc non sem molestie faucibus. Vivamus ut euismod tellus. Aliquam eget quam vel augue lobortis laoreet. </p>
+            <p>  Donec vitae lobortis augue, et aliquam leo. Quisque leo eros, vehicula id sem nec, dictum interdum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Nulla fringilla lorem diam, ac cursus mauris aliquet sit amet. Cras sagittis aliquam odio, sit amet convallis enim pulvinar id. Quisque convallis mi in tortor laoreet vulputate. Integer viverra velit a massa lacinia, in tempus augue tempor. Sed accumsan elit ut ligula dictum facilisis. </p>
+            <p>  Aenean elit est, egestas vitae tempor ut, imperdiet nec nisi. Nunc aliquam tortor id massa finibus faucibus sed eu est. Etiam vestibulum dapibus elit non posuere. Suspendisse vitae ante sed neque facilisis feugiat ut eu leo. Etiam et magna sed enim fermentum commodo. In nec congue purus. Duis commodo lectus metus, ac mattis nulla vulputate sit amet. Praesent fringilla non eros sit amet ultrices. Pellentesque consectetur dui vel enim viverra sagittis. Mauris ultricies orci rutrum, pellentesque leo at, ultrices lectus. Vivamus quis tellus fringilla, auctor nibh a, mollis lacus. Suspendisse lacus magna, rhoncus ac purus id, ornare egestas nisl. </p>
+            <p>  Ut faucibus fringilla ligula, vel accumsan sapien ornare eget. Donec facilisis quam sit amet sem eleifend, eu ultrices ipsum dignissim. Maecenas varius est iaculis lectus suscipit, a malesuada dui mattis. Suspendisse sed nibh in eros gravida auctor. Vestibulum aliquam tempor mi, sit amet vehicula velit egestas vel. Cras porta blandit tortor ut varius. Morbi posuere mollis nisl et consequat. Quisque et commodo sem. Donec aliquam ultricies volutpat. Quisque quis odio congue, aliquet ipsum non, sodales orci. Donec et mi eu arcu porttitor commodo. </p>
+            <p>  Proin sollicitudin mattis erat vitae laoreet. Curabitur fringilla elit varius, mattis ligula non, commodo risus. Maecenas accumsan lacus vel tellus imperdiet iaculis. Suspendisse sodales, ante ut ullamcorper ultricies, ante odio suscipit velit, id ultrices odio neque at urna. Phasellus pretium vel diam eu dictum. Quisque facilisis fermentum tincidunt. Suspendisse potenti. Praesent vestibulum a orci quis maximus. Etiam rutrum tortor vel sagittis faucibus. </p>
+            
+        </div>
+
+        <div class="album p-5" id="album-div">
+            <div class="row p-2">
+                <div class="col-md-12 text-center p-3">
+                    <p class="display-6"> My Work </p>
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/3.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/6.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/7.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/8.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/9.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/10.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/11.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/12.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/13.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/14.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/15.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/16.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/17.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 px-4 pb-4 m-auto zoom">
+                    <img src="img/18.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="text-center col-md-12 p-5">
+                    <svg onClick="document.getElementById('header-top').scrollIntoView({behavior: 'smooth'});" width="2em" height="2em" viewBox="0 0 16 16" class="my-icon bi bi-arrow-up-circle comeback" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M4.646 8.354a.5.5 0 0 0 .708 0L8 5.707l2.646 2.647a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 0 .708z"/>
+                        <path fill-rule="evenodd" d="M8 11.5a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5z"/>
+                    </svg>
+                </div>
             </div>
         </div>
 
-        
-    </div>
+        <footer class="text-center pb-5">
+            <p> Contact me on <a href="https://www.instagram.com/jovicevic.stefan" target="_blank"><img src="img/instagram.svg" alt="" height="auto" width="24rem"> </a></p>
+            <p> Copyright © Stefan Jovićević, 2021</p>
+        </footer>
+        </div>
 
-    <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $(".my-icon").on('click', function(event) {
-        
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-        
-              // Store hash
-              var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-        
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
-        });
+        <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        } 
         </script>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-
+    </body>
 </html>

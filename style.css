@@ -1,93 +1,40 @@
-#main {
+body {
     background-color: #000;
     color: #fff;
 }
 
-.slika {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-}
+/*
 
-.slike img {
-    height: auto;
-}
-
-.heading {
-    font-family: 'Poppins',sans-serif;
-}
-
-
-.btn:focus, .btn:active {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-
-  
-.h3 {
-    color: #fff !important; 
-    font-family: sans-serif;
-}
-.linkovi{
-    color: #fff;
-}
-
-
-.linkovi:hover {
-    color: #666;
-    transition: 0.5s;
-}
-
-.linkovi:click {
-    color: #666;
-}
-
-
-.bio h5 {
-    font-family: 'Poppins',sans-serif;
-    font-size: 1.3em;
-}
-
-.quote {
-    font-family: 'Playfair Display';
-    font-size: 1.8em;
-}
-
-.p-6 {
-    padding-top: 7rem;
-}
-
-.hobby h5{
-    font-size: 1.1em;
-    font-family: 'Poppins', sans-serif;
-}
+mogucnost blurovanja slika 
 
 img {
-    margin: 2%;
-    opacity: 0.6;
+    filter: blur(2px);
 }
 
-img:hover{
-    transform:scale(1.02);
-    transition: 0.2s;
-    opacity: 1;
+.img-fluid:hover {
+    filter: blur(0);
+    transform: scale(1);
+    transition: ease 0.3s;
 }
 
-#surname {
-    color: #777;
+*/
+
+
+ /* Style the header: fixed position (always stay at the top) */
+.progress-bar{
+    background-color: #fff;
+    transition: width 0.01s ease-out;
 }
 
-.header-image{
-    filter: grayscale(100%); 
+#myBar {
+    background-color: #000;
 }
 
-.my-icon:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
+.comeback:hover {
     cursor: pointer;
 }
 
-#header-img {
-    max-height: auto;
-}
 
+.zoom:hover {
+    transform: scale(1.05);
+}
